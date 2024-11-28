@@ -25,6 +25,8 @@ class KStyle {
   static Color cYellow2 = const Color(0xFFF1C400);
   static Color cBlue2 = const Color(0xFF141B4D);
 
+  static Color cFaYellow = const Color(0xFFFAF2C3);
+
   //heading
 
   static TextStyle tTitle = GoogleFonts.rubik(
@@ -105,6 +107,12 @@ class KStyle {
   static TextStyle tSticker2 = GoogleFonts.outfit(
     fontWeight: FontWeight.w700,
     fontSize: 5,
+    color: cText,
+  );
+
+  static TextStyle tBannerText = GoogleFonts.outfit(
+    fontWeight: FontWeight.w900,
+    fontSize: 28,
     color: cText,
   );
 }
